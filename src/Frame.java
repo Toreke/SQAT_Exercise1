@@ -17,19 +17,30 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
-		//to be implemented
-		return 0;
+		int a = 0;
+		
+		a = this.firstThrow + this.secondThrow;
+		
+		return a;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		
+		if (this.firstThrow != 10){
+			return false;
+		}else{
+			return true;
+		}
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		
+		if (this.firstThrow + this.secondThrow != 10){
+			return false;
+		}else{
+			return true;
+		}
 	}
 }
