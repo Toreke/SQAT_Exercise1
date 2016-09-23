@@ -7,8 +7,9 @@ public class TestBowling {
 	@Test
 	public void test() {
 		
-		BowlingGame Bgame = new BowlingGame(2, 6);
-		assert("8", Bgame.score());
+		Frame frame = new Frame(2, 6);
+		
+		assertArrayEquals("8", frame.score());
 	}
 
 }
