@@ -6,7 +6,9 @@ public class TestBowling {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
+		BowlingGame Bgame = new BowlingGame(2, 6);
+		assert("8", BowlingGame.score());
 	}
 
 }
