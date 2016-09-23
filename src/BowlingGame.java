@@ -24,11 +24,14 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int i = 1;
+		int score;
+		int n = 0;
+		int m = 1;
 		
 		while(i <= 10){
-			
+			frames[n] + frames[m];
 		}
 			
-		return 0;
+		return score;
 	}
 }
