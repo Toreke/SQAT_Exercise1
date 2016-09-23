@@ -39,3 +39,6 @@ EditAction 1474633065200 TestBowling.java 326 2 4 2
 UnitTestCaseAction 1474633068338 TestBowling.java OK
 UnitTestSessionAction 1474633068339 TestBowling.java OK
 EditAction 1474633295302 BowlingGame.java 622 4 2 0
+RefactoringAction 1474633327334 TestBowling.java ADD void test2()/2 METHOD
+RefactoringAction 1474633330348 TestBowling.java RENAME test2()/2=>void test3() METHOD
+EditAction 1474633863653 TestBowling.java 781 3 4 2
