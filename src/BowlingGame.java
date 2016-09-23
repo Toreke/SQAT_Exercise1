@@ -29,7 +29,7 @@ public class BowlingGame {
 		int m = 1;
 		int total = 0;
 		
-		while(i <= frames.size()){
+		while(i < frames.size()){
 			total = this.frames.get(n).getFirstThrow() + this.frames.get(m).getSecondThrow() + total;
 		}
 			
