@@ -28,8 +28,10 @@ public class BowlingGame {
 		int n = 0;
 		int m = 1;
 		
-		while(i <= 10){
+		while(i <= 20){
 			frames[n] + frames[m];
+			n++;
+			m++;
 		}
 			
 		return score;
