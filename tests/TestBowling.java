@@ -9,7 +9,7 @@ public class TestBowling {
 		
 		Frame frame = new Frame(2, 6);
 		
-		assertArrayEquals("8", frame.score());
+		assertEquals(8, frame.score());
 	}
 
 }
