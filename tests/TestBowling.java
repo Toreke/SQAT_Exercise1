@@ -8,7 +8,7 @@ public class TestBowling {
 	public void test() {
 		
 		BowlingGame Bgame = new BowlingGame(2, 6);
-		assert("8", BowlingGame.score());
+		assert("8", Bgame.score());
 	}
 
 }
