@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-//Finish time:
-//ID:
+//Finish time: 16:45
+//ID: 149
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
