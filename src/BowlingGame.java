@@ -24,15 +24,14 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int i = 1;
-		int score;
 		int n = 0;
 		int m = 1;
 		int total = 0;
 		
-		while(i <= 10){
-			total = this.frames[1].getFirstThrow() + this.frames[2}.getSecondThrow();
+		while(i <= 20){
+			total = this.frames.get(n).getFirstThrow() + this.frames.get(m).getSecondThrow() + total;
 		}
 			
-		return score;
+		return total;
 	}
 }
