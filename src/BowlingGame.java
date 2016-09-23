@@ -23,7 +23,12 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
+		int i = 1;
+		
+		while(i <= 10){
+			
+		}
+			
 		return 0;
 	}
 }
