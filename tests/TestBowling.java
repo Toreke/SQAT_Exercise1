@@ -26,7 +26,7 @@ public class TestBowling {
 		BowlingGame Bgame = new BowlingGame();
 		
 		Frame frame = new Frame(1,5);
-		Bgame.addFrame(frame);
+		Bgame.addFrame(1,5);
 		
 		Frame frame2 = new Frame(3,6);
 		Bgame.addFrame(frame2);
