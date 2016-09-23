@@ -27,11 +27,10 @@ public class BowlingGame {
 		int score;
 		int n = 0;
 		int m = 1;
+		int total = 0;
 		
-		while(i <= 20){
-			frames[n] + frames[m];
-			n++;
-			m++;
+		while(i <= 10){
+			total = this.frames[1].getFirstThrow() + this.frames[2}.getSecondThrow();
 		}
 			
 		return score;
